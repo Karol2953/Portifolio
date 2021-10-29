@@ -8,10 +8,10 @@ section
 {
     width: 300px;
     height: 100px;
-    background-color: blue;
+    background-image: repeating-linear-gradient(red, yellow);
 
     display: flex;
-    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -19,8 +19,8 @@ section
 .about-me
 {
     width: 300px;
-    height: 200px;
-    background-color: darkred;
+    height: 250px;
+    background-color: #ba6e47;
     margin: 10px;
     border: solid black 10px;
     border-radius: 15px;
@@ -37,4 +37,35 @@ section
     height: 30px;
     background-color: red;
     margin: 5px;
+}
+#main
+{
+    box-shadow: 10px 10px 5px grey;
+}
+.button
+{
+    text-align: center;
+    width: 150px;
+    border: 0;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 2.5;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: -moz-linear-gradient(to top left,
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2) 30%,
+    rgba(0,0,0,0));
+    box-shadow: inset 2px 2px 3px rgba(255,255,255,0.6),
+    inset -2px -2px 3px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+.button:hover
+{
+    background-color: rgba(255,0,0,11);
+}
+.button:active
+{
+    box-shadow: inset -2px -2px 3px rgba(255,255,255,0.6);
 }
