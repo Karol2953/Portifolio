@@ -14,11 +14,15 @@ nav
 }
 .nav-bar
 {
-  display: flex;
+    display: flex;
     justify-content: flex-end;
     list-style-type: none;
     text-transform: uppercase;
     font-size: 12px ;
+    background-color: #d5d5da;
+    border-radius: 30px;
+
+
 }
 li
 {
@@ -62,20 +66,19 @@ section
 }
 .hero-info
 {
-
     margin: 30px;
     max-width: 300px;
 }
 .hero-image
 {
- height: 300px;
+    height: 300px;
     width: 300px;
     margin: 30px;
 
 }
 .styled-break
 {
-    width: 30px;
+    width: 150px;
     height: 5px;
     background-color: #792d79;
     border-radius: 2.5px;
@@ -98,7 +101,7 @@ section
 {
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color: #984603;
     margin: 5px;
 }
 #main
@@ -125,6 +128,26 @@ section
 .button:active
 {
     box-shadow: inset -2px -2px 3px rgba(255,255,255,0.6);
+}
+form
+{
+    margin: 0 0 40px 0;
+}
+.input-section
+{
+    margin: 20px 0;
+    display: flex;
+}
+.input-group
+{
+    display: flex;
+    flex-direction:column;
+    margin: 0 5px 0 0; /*thats right margin*/
+}
+footer
+{
+    display: flex;
+    justify-content: center;
 }
 a
 {
