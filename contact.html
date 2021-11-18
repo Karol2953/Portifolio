@@ -2,12 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
-
+    <title>Contact</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/cdb2210632.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<h1>Contact</h1>
+<h2>Contact me</h2>
+
+<section>
+    <form>
+
+        <div class="input-section">
+            <div class="input-group">
+                <label for="first-name">First name:</label>
+                <input type="text" id="first-name" name="first-name" value="Write your name">
+            </div>
+            <div class="input-group">
+                <label for="last-name">Last name:</label>
+                <input type="text" id="last-name" name="last-name" value="Write your surname">
+            </div>
+        </div>
+
+        <div class="input-section">
+            <label for="office">Office</label>
+            <input type="radio" value="office" id="office" name="office"></input>
+
+            <label for="remote">Remote</label>
+            <input type="radio" value="remote" id="remote" name="remote"></input>
+
+            <label for="other">Other</label>
+            <input type="radio" value="other" id="other" name="other"></input>
+        </div>
+        <div class="input-section">
+            <input type="checkbox" id="contract" name="contract" value="contract"></input>
+            <label for="contract">Contract Work</label>
+
+            <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
+            <label for="full-time">Full-time</label>
+
+            <input type="checkbox" id="sponsor-ship" name="sponsor-ship" value="sponsor-ship"></input>
+            <label for="sponsor-ship">Sponsor-ship</label>
+
+        </div>
+        <input class="button" type="submit" value="submit"></input>
+    </form>
+
+</section>
+
+<footer>
+    <ul>
+         <li style="list-style-type:none; font-size: 17px;"> <i class="far fa-arrow-alt-circle-left"></i> <a href="index.html">About me</a></li>
+        <li style="list-style-type:none; font-size: 17px;"><i class="fab fa-github"></i> <a href="">Link to github</a></li>
+    </ul>
+</footer>
+
 
 </body>
 </html>

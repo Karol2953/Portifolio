@@ -21,9 +21,8 @@ nav
     font-size: 12px ;
     background-color: #d5d5da;
     border-radius: 30px;
-
-
 }
+
 li
 {
     margin: 15px 5px;
@@ -52,6 +51,21 @@ section
     margin: 5px;
     justify-content: space-evenly;
 }
+.far
+{
+    margin: 5px;
+    font-size:30px ;
+}
+.fas
+{
+    margin: 5px;
+    font-size:30px ;
+}
+.fab
+{
+    margin: 5px;
+    font-size:30px ;
+}
 .info
 {
     max-width:300px ;
@@ -69,9 +83,22 @@ section
     margin: 30px;
     max-width: 300px;
 }
+@media only screen and (max-width: 750px)
+{
+    .hero-info
+    {
+       max-width: 750px;
+    }
+    .hero-image
+    {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    
+}
 .hero-image
 {
-    height: 300px;
     width: 300px;
     margin: 30px;
 
@@ -135,8 +162,16 @@ form
 }
 .input-section
 {
-    margin: 20px 0;
+    margin: 20px 0 ;
     display: flex;
+}
+input[type="radio"]
+{
+    margin: 0 20px 0 5px;
+}
+input[type="checkbox"]
+{
+    margin: 0 5px 0 15px;
 }
 .input-group
 {
